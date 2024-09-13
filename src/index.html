@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E-Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: DarkBlue;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        header h1 {
+            margin: 0;
+        }
+        
+        nav {
+            display: flex;
+        }
+        
+        nav a {
+            font-size: 20px;
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+        }
+        
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        
+        article {
+            background-color: white;
+            padding: 20px;
+        }
+        
+        article h2 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        
+        section div {
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        section a {
+            font-size: 18px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        
+        #personalInformation {
+            background-color: DodgerBlue;
+        }
+        
+        #educationBackground {
+            background-color: Cyan;
+        }
+        
+        #skills {
+            background-color: Orange;
+        }
+        
+        #projects {
+            background-color: MediumSeaGreen;
+        }
+        
+        #certificates {
+            background-color: SlateBlue;
+        }
+        
+        #contacts {
+            background-color: LightGray;
+        }
+        
+        aside {
+            padding: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        ul {
+            font-size: 18px;
+            padding: 0;
+            list-style-type: none;
+        }
+        
+        ul li {
+            padding: 5px 0;
+        }
+        
+        footer {
+            text-align: center;
+        }
+        
+        form {
+            margin: 20px;
+        }
+        
+        form div {
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            max-width: 450px;
+            height: 20px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        
+        textarea {
+            height: 300px;
+        }
+        
+        input[type="submit"] {
+            background-color: gray;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: darkgray;
+        }
+        
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- MY E-PORTFOLIO INFORMATION -->
+    <header id="landingPage">
+        <h1><strong>E-Portfolio</strong></h1>
+        <!-- NAVIGATION -->
+        <nav>
+            <a href="#personalInformation">Personal Information</a>
+            <a href="#educationBackground">Education Background</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Welcome</h2>
+            <p>
+                Hello! My name is <strong>JRPO</strong>. I am currently a 3<sup>rd</sup> year student pursuing a Bachelor of Science in Information Technology with a focus on Web and Mobile Application at the Department of College of Computing and Multimedia Studies.
+            </p>
+            <p>
+                Through this e-portfolio, I aim to showcase my skills, projects, and experiences. Feel free to explore my achievements and learn more about my journey in the field of technology.
+            </p>
+        </article>
+    </main>
+
+    <section>
+        <!-- PERSONAL INFORMATION -->
+        <div id="personalInformation">
+            <a href="#landingPage">Home</a>
+            <h2 class="center"><strong>PERSONAL INFORMATION</strong></h2>
+        </div>
+
+        <!-- PERSONAL INFORMATION CONTENT -->
+        <aside>
+            <!-- Content for personal information goes here -->
+        </aside>
+
+        <!-- EDUCATION BACKGROUND -->
+        <div id="educationBackground">
+            <a href="#landingPage">Home</a>
+            <h2 class="center"><strong>EDUCATION BACKGROUND</strong></h2>
+        </div>
+
+        <!-- EDUCATION BACKGROUND CONTENT -->
+        <aside id="educationBackgroundContent">
+            <!-- Content for education background goes here -->
+        </aside>
+
+        <!-- SKILLS -->
+        <div id="skills">
+            <a href="#landingPage">Home</a>
+            <h2 class="center"><strong>SKILLS</strong></h2>
+        </div>
+
+        <!-- SKILLS CONTENT -->
+        <aside id="skillsContent">
+            <ul>
+                <li>HTML (Basic)</li>
+                <li>CSS (Basic)</li>
+                <li>Python (Basic)</li>
+                <li>C++ (Basic)</li>
+                <li>Program (Windows and Linux)</li>
+                <li>Mikrotik Basic Config</li>
+                <li>Batch File (Basic)</li>
+            </ul>
+        </aside>
+
+        <!-- PROJECTS -->
+        <div id="projects">
+            <a href="#landingPage">Home</a>
+            <h2 class="center"><strong>PROJECTS</strong></h2>
+        </div>
+
+        <!-- PROJECTS CONTENT -->
+        <aside id="projectsContent" class="center">
+            <!-- Content for projects goes here -->
+        </aside>
+
+        <!-- CERTIFICATES -->
+        <div id="certificates">
+            <a href="#landingPage">Home</a>
+            <h2 class="center"><strong>CERTIFICATES</strong></h2>
+        </div>
+
+        <!-- CERTIFICATES CONTENT -->
+        <aside id="certificatesContent" class="center">
+            <!-- Content for certificates goes here -->
+        </aside>
+    </section>
+
+    <!-- CONTACTS -->
+    <footer>
+        <div id="contacts">
+            <a href="#landingPage">Home</a>
+            <h2 class="center"><strong>Contacts</strong></h2>
+        </div>
+
+        <aside id="contactsForm">
+            <!-- Add contact form -->
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div>
+                    <textarea id="message" name="message" rows="4" required placeholder="Message"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Send Message">
+                </div>
+            </form>
+        </aside>
+
+        <aside id="contactsContent" class="center">
+            <p><strong>Social Media</strong></p>
+            <!-- Social media links/content go here -->
+        </aside>
+    </footer>
+</body>
+
+</html>
